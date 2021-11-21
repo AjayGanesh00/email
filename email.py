@@ -9,6 +9,8 @@ Enter Your Email : ''').lower()
 
         domain = email[email.index("@")+1:]
 
+        dot = email.index(".")
+
         ask = input('''
 Do You Need Your Domain/Username/Both : ''').lower()
 
